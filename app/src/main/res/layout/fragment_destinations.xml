@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/Destination"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="DESTINATION"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_below="@id/Destination"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/manali" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@id/manali_desc"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/goa" />
+
+    <TextView
+        android:id="@+id/manali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MANALI"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/imageView2"/>
+
+    <TextView
+        android:id="@+id/manali_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="Nestled in between the snow-capped slopes of the Pir Panjal and the Dhauladhar ranges, Manali is one of the most popular hill stations in the country."
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="12dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/manali"/>
+
+    <TextView
+        android:id="@+id/goa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GOA"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/imageView3"/>
+
+    <TextView
+        android:id="@+id/goa_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="When you think of Goa, you think of sandy beaches, amazing parties, beautiful little villages, delicious food, and a magical holiday experience."
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="12dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/goa"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@id/goa_desc"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/ladakh"
+        android:layout_marginHorizontal="20dp"/>
+
+    <TextView
+        android:id="@+id/ladakh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LADAKH"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/imageView4"/>
+
+    <TextView
+        android:id="@+id/ladakh_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ladakh"
+        android:layout_marginHorizontal="25dp"
+        android:text="A land like no other with superabundance of attractions to visit and phantasmagoric and fabulous landscapes, amazing people and culture, Ladakh is truly a heaven on Earth."
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12dp" />
+
+</RelativeLayout>
+</ScrollView>

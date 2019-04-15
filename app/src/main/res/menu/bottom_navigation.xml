@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_destinations"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Destination"/>
+
+    <item
+        android:id="@+id/nav_offers"
+        android:icon="@drawable/ic_flight_black_24dp"
+        android:title="Exotic Offers"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="About Us"/>
+
+</menu>

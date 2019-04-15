@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Trippy</string>
+    <string name="strike_line"> <strike>Rs. 2000 per night</strike> </string>
+    <string name="title">Choose one- Max 4 rooms per booking</string>
+</resources>
+
